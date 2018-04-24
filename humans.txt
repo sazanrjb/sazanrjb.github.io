@@ -1,0 +1,11 @@
+---
+layout: null
+sitemap:
+exclude: 'yes'
+---
+
+/* SITE */
+Last update: {{ site.time | date: "%Y/%m/%d" }}
+Standards: HTML5, CSS3
+Components: Jekyll
+Software: Sublime Text, Photoshop

@@ -1,0 +1,44 @@
+# Site settings
+title: Sajan Rajbhandari
+description: 'A simple guy who loves technology.'
+url: 'https://sazanrjb.com.np'
+baseurl: 
+google_analytics: 'UA-85216891-1'
+disqus_shortname: 'sazanrjb'
+future: true
+
+author:
+  name: 'Sajan Rajbhandari'
+  email: sazanrjb@gmail.com
+  twitter_username: sazanrjb
+  facebook_username: sazanrjb
+  github_username:  sazanrjb
+  linkedin_username:  sazanrjb
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']

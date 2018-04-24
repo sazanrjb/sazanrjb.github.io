@@ -1,7 +1,0 @@
-{
-  "name": "Sajan Rajbhandari",
-  "tagline": "",
-  "body": "### About\r\nHello Everyone, I am Sajan Rajbhandari. I am a web developer specialized in Laravel Framework. \r\n\r\nHere are some of my projects:\r\n\r\n * [OfficeManagementSystem] (https://sazanrjb.github.io/OfficeManagementSystem)\r\n    It is done using **Laravel Framework**.\r\n\r\n * [InventoryManagementSystem] (https://sazanrjb.github.io/InventoryManagementSystem)\r\n    It is done in **Java SE**.\r\n\r\n * [AlooPlus] (https://sazanrjb.github.io/alooplus) \r\n    A simple tic-tac-toe game made using **HTML, CSS/Bootstrap and Javascript/JQuery**.\r\n\r\n * [SimpleFootballCommentarySite] (https://sazanrjb.github.io/SimpleFootballCommentarySite/)\r\n   A simple site made using Laravel Framework to view football score with commentary without needing to refresh the browser.\r\n\r\n",
-  "google": "",
-  "note": "Don't delete this file! It's used internally to help with page regeneration."
-}
