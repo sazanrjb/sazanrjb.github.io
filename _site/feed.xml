@@ -5,13 +5,13 @@
     <description>A simple guy who loves technology.</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Apr 2018 19:27:00 +0545</pubDate>
-    <lastBuildDate>Tue, 24 Apr 2018 19:27:00 +0545</lastBuildDate>
+    <pubDate>Tue, 24 Apr 2018 19:59:42 +0545</pubDate>
+    <lastBuildDate>Tue, 24 Apr 2018 19:59:42 +0545</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
-        <title>Leverage laravel's FormRequest to make your code cleaner</title>
-        <description>&lt;p&gt;Laravel has a powerful class called &lt;strong&gt;FormRequest&lt;/strong&gt; to perform form validation. If we look at laravel’s official documentation, we can find &lt;strong&gt;FormRequest&lt;/strong&gt; under &lt;a href=&quot;https://laravel.com/docs/5.6/validation#form-request-validation&quot;&gt;&lt;strong&gt;Validation&lt;/strong&gt;&lt;/a&gt; section. But it can be used for much more purposes than just a validation.&lt;/p&gt;
+        <title>Leverage laravel's form request to make your code cleaner</title>
+        <description>&lt;p&gt;Laravel has a powerful feature called &lt;strong&gt;Form Request&lt;/strong&gt; to perform form validation logic. If we look at laravel’s official documentation, we can find &lt;strong&gt;Form Request&lt;/strong&gt; under &lt;a href=&quot;https://laravel.com/docs/5.6/validation#form-request-validation&quot;&gt;&lt;strong&gt;Validation&lt;/strong&gt;&lt;/a&gt; section. But it can be used for much more purposes than just a validation.&lt;/p&gt;
 
 &lt;p&gt;First of all, let’s see how we can make a request class. Laravel has the following artisan command to create a form request class:&lt;/p&gt;
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;php artisan make:request CreateProductRequest
@@ -207,7 +207,7 @@ Illuminate\Contracts\Validation\Rule` interface or with the following artisan co
 
 &lt;p&gt;So by these ways, we can make our code cleaner by utilizing the request classes, and use them beyond validation.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 17 Apr 2018 04:26:23 +0545</pubDate>
+        <pubDate>Wed, 25 Apr 2018 01:42:00 +0545</pubDate>
         <link>http://localhost:4000/2018/leverage-laravels-form-request-optimize-and-make-code-cleaner/</link>
         <guid isPermaLink="true">http://localhost:4000/2018/leverage-laravels-form-request-optimize-and-make-code-cleaner/</guid>
         

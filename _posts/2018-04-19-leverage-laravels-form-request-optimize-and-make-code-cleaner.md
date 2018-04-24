@@ -1,10 +1,10 @@
 ---
-title:  "Leverage laravel's FormRequest to make your code cleaner"
-date:   2018-04-16 22:41:23
+title:  "Leverage laravel's form request to make your code cleaner"
+date:   2018-04-24 19:57:00
 categories: [Laravel]
 tags: [laravel, programming]
 ---
-Laravel has a powerful class called **FormRequest** to perform form validation. If we look at laravel's official documentation, we can find **FormRequest** under [**Validation**](https://laravel.com/docs/5.6/validation#form-request-validation) section. But it can be used for much more purposes than just a validation.
+Laravel has a powerful feature called **Form Request** to perform form validation logic. If we look at laravel's official documentation, we can find **Form Request** under [**Validation**](https://laravel.com/docs/5.6/validation#form-request-validation) section. But it can be used for much more purposes than just a validation.
 
 First of all, let's see how we can make a request class. Laravel has the following artisan command to create a form request class:
 ```
