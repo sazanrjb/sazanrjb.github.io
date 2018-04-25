@@ -57,3 +57,11 @@ pre.highlight code,
   border: 3px solid #fff;
   border-radius:100%;
 }
+
+pre.highlight, .highlight pre {
+  overflow-x: auto;
+}
+
+pre.highlight code, .highlight pre code {
+  white-space: pre;
+}
