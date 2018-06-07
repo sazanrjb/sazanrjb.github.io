@@ -3,10 +3,10 @@
   <channel>
     <title>Sajan Rajbhandari</title>
     <description>A simple guy who loves technology.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 25 Apr 2018 19:15:47 +0545</pubDate>
-    <lastBuildDate>Wed, 25 Apr 2018 19:15:47 +0545</lastBuildDate>
+    <link>https://sazanrjb.com.np/</link>
+    <atom:link href="https://sazanrjb.com.np/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sun, 16 Sep 2018 19:42:05 +0545</pubDate>
+    <lastBuildDate>Sun, 16 Sep 2018 19:42:05 +0545</lastBuildDate>
     <generator>Jekyll v3.6.2</generator>
     
       <item>
@@ -208,8 +208,8 @@ Illuminate\Contracts\Validation\Rule` interface or with the following artisan co
 &lt;p&gt;So by these ways, we can make our code cleaner by utilizing the request classes, and use them beyond validation.&lt;/p&gt;
 </description>
         <pubDate>Wed, 25 Apr 2018 01:42:00 +0545</pubDate>
-        <link>http://localhost:4000/2018/leverage-laravels-form-request-optimize-and-make-code-cleaner/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/leverage-laravels-form-request-optimize-and-make-code-cleaner/</guid>
+        <link>https://sazanrjb.com.np/2018/leverage-laravels-form-request-optimize-and-make-code-cleaner/</link>
+        <guid isPermaLink="true">https://sazanrjb.com.np/2018/leverage-laravels-form-request-optimize-and-make-code-cleaner/</guid>
         
         <category>laravel</category>
         
