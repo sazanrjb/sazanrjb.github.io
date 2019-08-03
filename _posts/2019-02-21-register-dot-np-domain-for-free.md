@@ -6,11 +6,11 @@ tags: [domain registration, websites]
 ---
 So you are planning to create a website and want to get a domain name for free? Or you are planning to start your blog but dont know where to start from. Be it a personal website, or a business website, you can get .np domains for free in Nepal. The only thing required is scanned copy of your citizenship, and a cover letter.
 
-## What is .np domain name?
+### What is .np domain name?
 
 .np domain name is the [Country code top-level domain (ccTLD)](https://en.wikipedia.org/wiki/Country_code_top-level_domain), reserved for Nepal. [Mercantile Communicationa PVT. LTD.](http://www.mos.com.np/) has the right to distribute .np domains in Nepal.
 
-## How to get then?
+### How to get then?
 
 The registration is quite straight forward.
 

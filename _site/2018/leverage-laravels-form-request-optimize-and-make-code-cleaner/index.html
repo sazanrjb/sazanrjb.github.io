@@ -54,7 +54,7 @@
   <meta name="msapplication-TileImage" content="/images/favicons/mstile-144x144.png">
   <meta name="theme-color" content="#ffffff">
   
-  <link rel="stylesheet" href="/css/main.css?1564831019245497664">
+  <link rel="stylesheet" href="/css/main.css?1564831410332268356">
   <link rel="canonical" href="https://sazanrjb.com.np/2018/leverage-laravels-form-request-optimize-and-make-code-cleaner/">
   <link rel="alternate" type="application/rss+xml" title="Sajan Rajbhandari" href="/feed.xml">
 </head>
@@ -195,7 +195,7 @@
 
 <p>Besides validation, request classes can be used to optimize and make controller classes look cleaner.</p>
 
-<h2 id="custom-rule-class">Custom Rule class</h2>
+<h3 id="custom-rule-class">Custom Rule class</h3>
 <p>In many cases, <a href="https://laravel.com/docs/5.5/validation#available-validation-rules">built-in validation rules</a> will be fine. But there will be many cases when custom rules need to be made.</p>
 
 <p>Lets say, we have two tables, <code class="highlighter-rouge">categories</code> and <code class="highlighter-rouge">products</code>. <code class="highlighter-rouge">products</code> table contains a foreign key <code class="highlighter-rouge">category_id</code> which links to 	<code class="highlighter-rouge">categories</code>. A category can have multiple products and product name should be unique in each category.</p>
@@ -329,7 +329,7 @@ Illuminate\Contracts\Validation\Rule` interface or with the following artisan co
 </code></pre></div></div>
 <p>So now both your controller and request class will look cleaner.</p>
 
-<h2 id="addingediting-request-elements">Adding/Editing request elements</h2>
+<h3 id="addingediting-request-elements">Adding/Editing request elements</h3>
 <p>There will be a time when we have to add some elements to the request object. Also, we may need to modify request elements before validating or storing it to the database.</p>
 
 <p>Lets say, while editing a product, the request has manufactured year, date and day as seperate elements, and we need to merge them together to create a single date. Similarly, let’s say product’s attributes are in json format and we need to convert it to array.</p>
@@ -401,7 +401,7 @@ Illuminate\Contracts\Validation\Rule` interface or with the following artisan co
 </footer>
 
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script type="text/javascript" src="/js/main.js?1564831019245497664"></script>
+<script type="text/javascript" src="/js/main.js?1564831410332268356"></script>
 
 
     </div>

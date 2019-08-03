@@ -5,19 +5,19 @@
     <description>A simple guy who loves technology.</description>
     <link>https://sazanrjb.com.np/</link>
     <atom:link href="https://sazanrjb.com.np/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Aug 2019 17:01:59 +0545</pubDate>
-    <lastBuildDate>Sat, 03 Aug 2019 17:01:59 +0545</lastBuildDate>
+    <pubDate>Sat, 03 Aug 2019 17:08:30 +0545</pubDate>
+    <lastBuildDate>Sat, 03 Aug 2019 17:08:30 +0545</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
         <title>Register .np domain for free</title>
         <description>&lt;p&gt;So you are planning to create a website and want to get a domain name for free? Or you are planning to start your blog but dont know where to start from. Be it a personal website, or a business website, you can get .np domains for free in Nepal. The only thing required is scanned copy of your citizenship, and a cover letter.&lt;/p&gt;
 
-&lt;h2 id=&quot;what-is-np-domain-name&quot;&gt;What is .np domain name?&lt;/h2&gt;
+&lt;h3 id=&quot;what-is-np-domain-name&quot;&gt;What is .np domain name?&lt;/h3&gt;
 
 &lt;p&gt;.np domain name is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Country_code_top-level_domain&quot;&gt;Country code top-level domain (ccTLD)&lt;/a&gt;, reserved for Nepal. &lt;a href=&quot;http://www.mos.com.np/&quot;&gt;Mercantile Communicationa PVT. LTD.&lt;/a&gt; has the right to distribute .np domains in Nepal.&lt;/p&gt;
 
-&lt;h2 id=&quot;how-to-get-then&quot;&gt;How to get then?&lt;/h2&gt;
+&lt;h3 id=&quot;how-to-get-then&quot;&gt;How to get then?&lt;/h3&gt;
 
 &lt;p&gt;The registration is quite straight forward.&lt;/p&gt;
 
@@ -99,19 +99,19 @@
 
 &lt;p&gt;Here are some of the concept designs of PUBG character in Nepali lifestyle.&lt;/p&gt;
 
-&lt;h2 id=&quot;pubg-character-in-nepali-dress&quot;&gt;PUBG Character in Nepali dress&lt;/h2&gt;
+&lt;h3 id=&quot;pubg-character-in-nepali-dress&quot;&gt;PUBG Character in Nepali dress&lt;/h3&gt;
 &lt;p&gt;Well battling in Daura Suruwal may not be easy though!
 &lt;img src=&quot;/images/nepali-pubg-characters/nepali-pubg.jpg&quot; alt=&quot;Nepali PUBG Character&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;subg&quot;&gt;SUBG&lt;/h2&gt;
+&lt;h3 id=&quot;subg&quot;&gt;SUBG&lt;/h3&gt;
 &lt;p&gt;Everyone needs to buy veggies.
 &lt;img src=&quot;/images/nepali-pubg-characters/subg.jpg&quot; alt=&quot;Nepali PUBG Character&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;saug&quot;&gt;SAUG&lt;/h2&gt;
+&lt;h3 id=&quot;saug&quot;&gt;SAUG&lt;/h3&gt;
 &lt;p&gt;Oh well!
 &lt;img src=&quot;/images/nepali-pubg-characters/saug.jpg&quot; alt=&quot;Nepali PUBG Character&quot; /&gt;&lt;/p&gt;
 
-&lt;h2 id=&quot;pubg-character-visiting-kathmandu&quot;&gt;PUBG Character visiting Kathmandu&lt;/h2&gt;
+&lt;h3 id=&quot;pubg-character-visiting-kathmandu&quot;&gt;PUBG Character visiting Kathmandu&lt;/h3&gt;
 &lt;p&gt;What happens if PUBG Character comes to Kathmandu?
 &lt;img src=&quot;/images/nepali-pubg-characters/ktm-pubg.jpg&quot; alt=&quot;Nepali PUBG Character&quot; /&gt;&lt;/p&gt;
 
@@ -159,7 +159,7 @@
 
 &lt;p&gt;Besides validation, request classes can be used to optimize and make controller classes look cleaner.&lt;/p&gt;
 
-&lt;h2 id=&quot;custom-rule-class&quot;&gt;Custom Rule class&lt;/h2&gt;
+&lt;h3 id=&quot;custom-rule-class&quot;&gt;Custom Rule class&lt;/h3&gt;
 &lt;p&gt;In many cases, &lt;a href=&quot;https://laravel.com/docs/5.5/validation#available-validation-rules&quot;&gt;built-in validation rules&lt;/a&gt; will be fine. But there will be many cases when custom rules need to be made.&lt;/p&gt;
 
 &lt;p&gt;Lets say, we have two tables, &lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;products&lt;/code&gt;. &lt;code class=&quot;highlighter-rouge&quot;&gt;products&lt;/code&gt; table contains a foreign key &lt;code class=&quot;highlighter-rouge&quot;&gt;category_id&lt;/code&gt; which links to 	&lt;code class=&quot;highlighter-rouge&quot;&gt;categories&lt;/code&gt;. A category can have multiple products and product name should be unique in each category.&lt;/p&gt;
@@ -293,7 +293,7 @@ Illuminate\Contracts\Validation\Rule` interface or with the following artisan co
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;So now both your controller and request class will look cleaner.&lt;/p&gt;
 
-&lt;h2 id=&quot;addingediting-request-elements&quot;&gt;Adding/Editing request elements&lt;/h2&gt;
+&lt;h3 id=&quot;addingediting-request-elements&quot;&gt;Adding/Editing request elements&lt;/h3&gt;
 &lt;p&gt;There will be a time when we have to add some elements to the request object. Also, we may need to modify request elements before validating or storing it to the database.&lt;/p&gt;
 
 &lt;p&gt;Lets say, while editing a product, the request has manufactured year, date and day as seperate elements, and we need to merge them together to create a single date. Similarly, let’s say product’s attributes are in json format and we need to convert it to array.&lt;/p&gt;

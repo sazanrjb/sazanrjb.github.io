@@ -10,19 +10,19 @@ I wanted to make similar character in Nepali dress up, and started thinking abou
 
 Here are some of the concept designs of PUBG character in Nepali lifestyle.
 
-## PUBG Character in Nepali dress
+### PUBG Character in Nepali dress
 Well battling in Daura Suruwal may not be easy though!
 <img src="/images/nepali-pubg-characters/nepali-pubg.jpg" alt="Nepali PUBG Character" /> 
 
-## SUBG
+### SUBG
 Everyone needs to buy veggies.
 <img src="/images/nepali-pubg-characters/subg.jpg" alt="Nepali PUBG Character" /> 
 
-## SAUG
+### SAUG
 Oh well!
 <img src="/images/nepali-pubg-characters/saug.jpg" alt="Nepali PUBG Character" /> 
 
-## PUBG Character visiting Kathmandu
+### PUBG Character visiting Kathmandu
 What happens if PUBG Character comes to Kathmandu?
 <img src="/images/nepali-pubg-characters/ktm-pubg.jpg" alt="Nepali PUBG Character" /> 
 

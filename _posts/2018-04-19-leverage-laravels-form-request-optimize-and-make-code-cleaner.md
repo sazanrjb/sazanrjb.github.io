@@ -25,7 +25,7 @@ You can view more about it on laravel's [official documentation](https://laravel
 
 Besides validation, request classes can be used to optimize and make controller classes look cleaner. 
 
-## Custom Rule class
+### Custom Rule class
 In many cases, [built-in validation rules](https://laravel.com/docs/5.5/validation#available-validation-rules) will be fine. But there will be many cases when custom rules need to be made. 
 
 Lets say, we have two tables, `categories` and `products`. `products` table contains a foreign key `category_id` which links to 	`categories`. A category can have multiple products and product name should be unique in each category.
@@ -138,7 +138,7 @@ public function rules()
 ```
 So now both your controller and request class will look cleaner.
 
-## Adding/Editing request elements
+### Adding/Editing request elements
 There will be a time when we have to add some elements to the request object. Also, we may need to modify request elements before validating or storing it to the database.
 
 Lets say, while editing a product, the request has manufactured year, date and day as seperate elements, and we need to merge them together to create a single date. Similarly, let's say product's attributes are in json format and we need to convert it to array.
