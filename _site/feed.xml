@@ -5,8 +5,8 @@
     <description>A simple guy who loves technology.</description>
     <link>https://sazanrjb.com.np/</link>
     <atom:link href="https://sazanrjb.com.np/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 03 Aug 2019 14:37:04 +0545</pubDate>
-    <lastBuildDate>Sat, 03 Aug 2019 14:37:04 +0545</lastBuildDate>
+    <pubDate>Sat, 03 Aug 2019 15:16:53 +0545</pubDate>
+    <lastBuildDate>Sat, 03 Aug 2019 15:16:53 +0545</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
     
       <item>
@@ -346,6 +346,85 @@ Illuminate\Contracts\Validation\Rule` interface or with the following artisan co
         
         
         <category>Laravel</category>
+        
+      </item>
+    
+      <item>
+        <title>5 things I learned by participating in Hacktoberfest</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/5-things-learned-hacktoberfest/hacktoberfest.png&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This post was originally posted on Medium (
+&lt;a href=&quot;https://medium.com/introcept-hub/5-things-i-learned-by-participating-in-hacktoberfest-917e2993ff5d&quot; target=&quot;_blank&quot; rel=&quot;noopener noreferrer&quot;&gt;5 things I learned by participating in Hacktoberfest&lt;/a&gt;)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;To start off, I had never contributed to any open source projects. I wanted to, but never got my hands into it, or let’s say I hesitated to find suitable projects.&lt;/p&gt;
+
+&lt;p&gt;One day, a colleague of mine told me about a campaign called Hacktoberfest, which happens during the month of October. He told me that we could get T-shirts by just opening four pull requests in any open source projects on github. At first, I did not show much interest even though I bookmarked the official page of the campaign (https://hacktoberfest.digitalocean.com).&lt;/p&gt;
+
+&lt;p&gt;I researched about the campaign after a few days and found out that a lot of people were participating. So I decided to give it a try and started searching for issues having label ‘hacktoberfest’ on github.&lt;/p&gt;
+
+&lt;p&gt;As I am specialized in web development, specifically in PHP and JavaScript, I searched in those areas. My first PR was about sending confirmation email to the user after creating one. Though it is a simple task, I just wanted to get my hands dirty in the campaign. After that, I had submitted four PRs, all of them got merged.&lt;/p&gt;
+
+&lt;p&gt;I don’t know about the T-shirt, but I feel happy that I participated in the campaign. Here are the 5 things I learned:&lt;/p&gt;
+
+&lt;h3 id=&quot;experience&quot;&gt;Experience&lt;/h3&gt;
+
+&lt;p&gt;You will feel a bit hesitant at first, but once you start, you will just want to contribute more and more. I got the chance to checkout coding styles of a lot of different developers. Furthermore, I learned about different approaches developers use to solve specific problems.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/5-things-learned-hacktoberfest/challenge-completed.png&quot; alt=&quot;Challenge Completed&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;some-people-arelazy&quot;&gt;Some people are lazy&lt;/h3&gt;
+&lt;p&gt;While some people genuinely ask for help or encourage beginners, some people create issues for almost everything they want to add in their projects. It’s an opportunity for them to get the job done by others for free.&lt;/p&gt;
+
+&lt;p&gt;One of the devs created an issue to test all the classes of his application. Similarly, another guy created an issue to refactor the overall project. On the other hand, many people would find and submit small PRs just to get T-shirts from github and digitalocean.&lt;/p&gt;
+
+&lt;figure style=&quot;text-align: center;&quot; class=&quot;image&quot;&gt;
+&lt;img src=&quot;/images/5-things-learned-hacktoberfest/tenor.gif&quot; alt=&quot;Duh&quot; /&gt;
+ &lt;figcaption&gt;Source: https://tenor.com/view/chuck-chuck-bartowski-zachary-levi-duh-gif-4201188&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;some-areheroes&quot;&gt;Some are heroes&lt;/h3&gt;
+&lt;p&gt;While browsing through the list of issues, some devs were genuinely promoting open source culture and helping newcomers. Repos with thousands of likes on github, were encouraging others to submit PR by creating issues. I think this will definitely have a positive effect in expanding the open source community.&lt;/p&gt;
+
+&lt;figure style=&quot;text-align: center;&quot; class=&quot;image&quot;&gt;
+&lt;img src=&quot;/images/5-things-learned-hacktoberfest/superman.gif&quot; alt=&quot;heros&quot; /&gt;
+ &lt;figcaption&gt;Source: http://www.laughinggif.com/view/e20w1ltnnk/13.html&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;freedom&quot;&gt;Freedom&lt;/h3&gt;
+&lt;p&gt;Usually, we get deadlines to complete tasks when we work in the office. Working on a tight schedule not only decreases creativity but also welcomes bugs. While contributing in around five projects, I did not have any deadlines, so I could think of any new solutions to perform the task. And we don’t have to worry about our PRs not getting merged.&lt;/p&gt;
+
+&lt;h3 id=&quot;itsfun&quot;&gt;It’s Fun&lt;/h3&gt;
+&lt;p&gt;While my first PR took very long time to get merged, my next two PRs immediately got merged. I got excited when my PR was merged, and that encouraged me to look into other issues. Also, the appreciations I got motivated me to do more.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/5-things-learned-hacktoberfest/pr-review.png&quot; alt=&quot;PR Review&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Learning new things is fun in itself. We can try new ways to solve a problem and we are free to research about them online. Overall, this campaign was fun, getting all my PRs merged.&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center;&quot;&gt;
+    &lt;img src=&quot;/images/5-things-learned-hacktoberfest/pr-list.png&quot; alt=&quot;PRs List&quot; /&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;
+Overall, Hacktoberfest was a perfect place for me to start contributing to open source projects. Like me, there were many people sharing positive feedback from their experiences.&lt;/p&gt;
+
+&lt;p&gt;If you have participated in the campaign, please share your experiences in the comments below.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 24 Oct 2017 16:42:00 +0545</pubDate>
+        <link>https://sazanrjb.com.np/2017/5-things-i-learned-by-participating-in-hacktoberfest/</link>
+        <guid isPermaLink="true">https://sazanrjb.com.np/2017/5-things-i-learned-by-participating-in-hacktoberfest/</guid>
+        
+        <category>hacktoberfest</category>
+        
+        <category>programming</category>
+        
+        
+        <category>Programming</category>
         
       </item>
     
