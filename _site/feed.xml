@@ -5,9 +5,91 @@
     <description>A simple guy who loves technology.</description>
     <link>https://sazanrjb.com.np/</link>
     <atom:link href="https://sazanrjb.com.np/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 13 Feb 2019 20:04:29 +0545</pubDate>
-    <lastBuildDate>Wed, 13 Feb 2019 20:04:29 +0545</lastBuildDate>
+    <pubDate>Sat, 03 Aug 2019 14:37:04 +0545</pubDate>
+    <lastBuildDate>Sat, 03 Aug 2019 14:37:04 +0545</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Register .np domain for free</title>
+        <description>&lt;p&gt;So you are planning to create a website and want to get a domain name for free? Or you are planning to start your blog but dont know where to start from. Be it a personal website, or a business website, you can get .np domains for free in Nepal. The only thing required is scanned copy of your citizenship, and a cover letter.&lt;/p&gt;
+
+&lt;h2 id=&quot;what-is-np-domain-name&quot;&gt;What is .np domain name?&lt;/h2&gt;
+
+&lt;p&gt;.np domain name is the &lt;a href=&quot;https://en.wikipedia.org/wiki/Country_code_top-level_domain&quot;&gt;Country code top-level domain (ccTLD)&lt;/a&gt;, reserved for Nepal. &lt;a href=&quot;http://www.mos.com.np/&quot;&gt;Mercantile Communicationa PVT. LTD.&lt;/a&gt; has the right to distribute .np domains in Nepal.&lt;/p&gt;
+
+&lt;h2 id=&quot;how-to-get-then&quot;&gt;How to get then?&lt;/h2&gt;
+
+&lt;p&gt;The registration is quite straight forward.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Go to https://register.com.np/ and check if the domain name you want is available. You can select from a various sets of domains such as &lt;code class=&quot;highlighter-rouge&quot;&gt;.com.np&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;.info.np&lt;/code&gt;, etc.&lt;/p&gt;
+
+    &lt;p&gt;If the domain is not available, try a new one.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;If the domain is available, click &lt;code class=&quot;highlighter-rouge&quot;&gt;Register now&lt;/code&gt;. It will take it to the login page. If you have not registered before, click &lt;code class=&quot;highlighter-rouge&quot;&gt;Create user&lt;/code&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Fill all the details, and click &lt;code class=&quot;highlighter-rouge&quot;&gt;Create account&lt;/code&gt;. Verfication link will be sent to your email. Go to your email, and click &lt;code class=&quot;highlighter-rouge&quot;&gt;Verify&lt;/code&gt;. It will take you to the login page. Login with your newly created credentials.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Next you need to fill the domain request form. The tricky part is &lt;code class=&quot;highlighter-rouge&quot;&gt;Name server&lt;/code&gt; section. If you have purchased a hosting package, you will get nameservers from your hosting provider. If not, you can use free nameservers till you get a new one: &lt;code class=&quot;highlighter-rouge&quot;&gt;ns1.afraid.org&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;ns2.afraid.org&lt;/code&gt;&lt;/p&gt;
+
+    &lt;blockquote&gt;
+      &lt;p&gt;You can also use Cloudflare’s nameservers as well, which has many benefits. For that, login to &lt;a href=&quot;https://cloudflare.com&quot;&gt;Cloudflare&lt;/a&gt;, go to &lt;code class=&quot;highlighter-rouge&quot;&gt;DNS&lt;/code&gt;, and under &lt;code class=&quot;highlighter-rouge&quot;&gt;Cloudflare Nameservers&lt;/code&gt; section there will be the nameservers. Copy those in the two nameservers section.&lt;/p&gt;
+    &lt;/blockquote&gt;
+
+    &lt;p&gt;Then fill the &lt;code class=&quot;highlighter-rouge&quot;&gt;Administrative contact&lt;/code&gt; and &lt;code class=&quot;highlighter-rouge&quot;&gt;Technical contact&lt;/code&gt; information, which is quite straight forward.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Submit documents&lt;/p&gt;
+
+    &lt;p&gt;Make sure you have scanned copy of either your citizenship, passport or license. 
+ An extra thing you require is a cover letter requesting the domain name.&lt;/p&gt;
+
+    &lt;p&gt;here is a sample of the cover letter:&lt;/p&gt;
+
+    &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;
+     Date: 2019-02-21
+
+     To,
+     The Host Master,
+     Mercantile Communications Pvt. Ltd.
+
+     Subject: Regarding registration of .np domain name
+
+     Dear Sir/Madam,
+
+     I would like to register a .np domain, www.&amp;lt;YOUR_DOMAIN&amp;gt;.com.np for my personal website. 
+     I have filled all the forms, and also attached the required documents.
+
+     I will be looking forward to hear soon. 
+
+     Regards,
+     &amp;lt;YOUR NAME&amp;gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+
+    &lt;p&gt;Make a doc file, paste the content above, and make adjustments accordingly. Then upload the file.&lt;/p&gt;
+
+    &lt;p&gt;After that click &lt;code class=&quot;highlighter-rouge&quot;&gt;Save and Continue&lt;/code&gt;. Thats it! It will take around a day to point the nameservers to your domain name.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+</description>
+        <pubDate>Thu, 21 Feb 2019 16:45:00 +0545</pubDate>
+        <link>https://sazanrjb.com.np/2019/register-dot-np-domain-for-free/</link>
+        <guid isPermaLink="true">https://sazanrjb.com.np/2019/register-dot-np-domain-for-free/</guid>
+        
+        <category>domain registration</category>
+        
+        <category>websites</category>
+        
+        
+        <category>Domain Registration</category>
+        
+      </item>
     
       <item>
         <title>Nepali PUBG Characters</title>
