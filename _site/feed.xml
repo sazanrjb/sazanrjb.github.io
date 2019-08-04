@@ -5,9 +5,76 @@
     <description>A simple guy who loves technology.</description>
     <link>https://sazanrjb.com.np/</link>
     <atom:link href="https://sazanrjb.com.np/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 04 Aug 2019 19:38:18 +0545</pubDate>
-    <lastBuildDate>Sun, 04 Aug 2019 19:38:18 +0545</lastBuildDate>
+    <pubDate>Sun, 04 Aug 2019 21:08:06 +0545</pubDate>
+    <lastBuildDate>Sun, 04 Aug 2019 21:08:06 +0545</lastBuildDate>
     <generator>Jekyll v3.7.4</generator>
+    
+      <item>
+        <title>Writing clean and optimized code</title>
+        <description>&lt;p&gt;A code, whether it is a good or a bad one, depends ultimately on a developer. A bad code may work functionally, but the software will bring uncertain bugs and will be difficult to scale in the future. Writing a clean and optimized code takes time, and practice. But once written, it will not just reduce bugs and uncertainty, but also help other developers to understand the code properly.&lt;/p&gt;
+
+&lt;p&gt;There are many ways one can write clean and optimized code. Few of them are as follows:&lt;/p&gt;
+
+&lt;h3 id=&quot;write-intuitive-class-method-and-variable-names&quot;&gt;Write intuitive class, method and variable names&lt;/h3&gt;
+&lt;p&gt;Naming things are hard. A developer must take out his/her time to choose proper names instead of writing unrelated ones. Improper names will not just waste the time of other developers, but also the one who writes, in the future.&lt;/p&gt;
+
+&lt;p&gt;Consider the following simple example:&lt;/p&gt;
+
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;fn&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Super'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ln&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Man'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ln&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;ln&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;getData&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;fn&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ln&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Here, a developer can understand the code only after reading the whole logic. Now, lets consider the following code:&lt;/p&gt;
+&lt;div class=&quot;language-js highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;firstName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Super'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;kd&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lastName&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'Man'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+  
+&lt;span class=&quot;kd&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;getFullName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;firstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lastName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;firstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt; &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;${&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;lastName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+
+&lt;span class=&quot;nx&quot;&gt;getFullName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nx&quot;&gt;firstName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;lastName&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;Anyone can understand the code just by reading the variable and method names.&lt;/p&gt;
+
+&lt;h3 id=&quot;follow-coding-standards&quot;&gt;Follow coding standards&lt;/h3&gt;
+&lt;p&gt;Coding standards are the set of guidelines and best practices for writing a software. In every programming languages, there are certain rules or conventions that the developers follow to make the code consistent and clean. These standards help the developers in any part of the world write the same code and work together without any problems.&lt;/p&gt;
+
+&lt;h3 id=&quot;yagni-principle&quot;&gt;YAGNI Principle&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;YAGNI&lt;/strong&gt; which stands for &lt;strong&gt;You Aren’t Gonna Need It&lt;/strong&gt;,  states that a developer should not add the functionality unless it is truely necessary.  Assuming the future requirements unnecessary and adding unrequired functionality with add code complexity, and can make the code unoptimized.&lt;/p&gt;
+
+&lt;p&gt;Lets say there is a requirement to activate a client. One might think of future and write a function to handle the activation feature of multiple clients.&lt;/p&gt;
+
+&lt;div class=&quot;language-php highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;function&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;changeStatus&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;array&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;ids&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+	&lt;span class=&quot;k&quot;&gt;foreach&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ids&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;as&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$client&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nv&quot;&gt;$this&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;clientService&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;find&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$id&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
+		&lt;span class=&quot;nv&quot;&gt;$client&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;activate&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;();&lt;/span&gt;
+	&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;It is ok if there will definately be the requirement in the future. But for now, it only adds complexity in the code. Instead of sending an id of the client, the id needs to be wrapped around an array to use this function. So, do not over engineer the solution of the problem that might occur in the future.&lt;/p&gt;
+
+&lt;h3 id=&quot;review-your-own-code&quot;&gt;Review your own code&lt;/h3&gt;
+&lt;p&gt;To ensure that the code you wrote is clean and optimized enough, review your own code regularly, or atleast before merging the code. Reading code allow` developers to find any possible fixes and changes that may not have found while writing. While reviewing the code, a developer can also find a possible way that he/she can simplify the particular code.&lt;/p&gt;
+
+&lt;p&gt;In conclusion, writing a clean code is all about simplifying the code, and making it consistent through out the program. Coding standards help to make the code consistent, and a developer should always take his/her time out to read about the best practices and how others are solving the particular problem.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 05 Aug 2019 02:47:00 +0545</pubDate>
+        <link>https://sazanrjb.com.np/2019/writing-clean-and-optimized-code/</link>
+        <guid isPermaLink="true">https://sazanrjb.com.np/2019/writing-clean-and-optimized-code/</guid>
+        
+        <category>programming</category>
+        
+        
+        <category>Tutorial</category>
+        
+      </item>
     
       <item>
         <title>A basic guide to start your illustration journey</title>
